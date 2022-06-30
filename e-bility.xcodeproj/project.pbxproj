@@ -17,6 +17,9 @@
 		BD5230C0286B5ED800F6199B /* e_bilityTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD5230BF286B5ED800F6199B /* e_bilityTests.swift */; };
 		BD5230CA286B5ED800F6199B /* e_bilityUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD5230C9286B5ED800F6199B /* e_bilityUITests.swift */; };
 		BD5230CC286B5ED800F6199B /* e_bilityUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD5230CB286B5ED800F6199B /* e_bilityUITestsLaunchTests.swift */; };
+		BDBED078286DECE800F34D42 /* FifthViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDBED077286DECE800F34D42 /* FifthViewController.swift */; };
+		BDBED07A286DED1E00F34D42 /* SixthViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDBED079286DED1E00F34D42 /* SixthViewController.swift */; };
+		BDBED07C286DED2D00F34D42 /* SeventhViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDBED07B286DED2D00F34D42 /* SeventhViewController.swift */; };
 		BDE183C5286B985000E57126 /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDE183C4286B985000E57126 /* SecondViewController.swift */; };
 		BDE183C7286BA67300E57126 /* ThirdViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDE183C6286BA67300E57126 /* ThirdViewController.swift */; };
 		BDE183C9286CA1A100E57126 /* FourthViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDE183C8286CA1A100E57126 /* FourthViewController.swift */; };
@@ -54,6 +57,9 @@
 		BD5230C5286B5ED800F6199B /* e-bilityUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "e-bilityUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		BD5230C9286B5ED800F6199B /* e_bilityUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = e_bilityUITests.swift; sourceTree = "<group>"; };
 		BD5230CB286B5ED800F6199B /* e_bilityUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = e_bilityUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		BDBED077286DECE800F34D42 /* FifthViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FifthViewController.swift; sourceTree = "<group>"; };
+		BDBED079286DED1E00F34D42 /* SixthViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SixthViewController.swift; sourceTree = "<group>"; };
+		BDBED07B286DED2D00F34D42 /* SeventhViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SeventhViewController.swift; sourceTree = "<group>"; };
 		BDE183C4286B985000E57126 /* SecondViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondViewController.swift; sourceTree = "<group>"; };
 		BDE183C6286BA67300E57126 /* ThirdViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThirdViewController.swift; sourceTree = "<group>"; };
 		BDE183C8286CA1A100E57126 /* FourthViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FourthViewController.swift; sourceTree = "<group>"; };
@@ -113,6 +119,9 @@
 				BDE183C4286B985000E57126 /* SecondViewController.swift */,
 				BDE183C6286BA67300E57126 /* ThirdViewController.swift */,
 				BDE183C8286CA1A100E57126 /* FourthViewController.swift */,
+				BDBED077286DECE800F34D42 /* FifthViewController.swift */,
+				BDBED079286DED1E00F34D42 /* SixthViewController.swift */,
+				BDBED07B286DED2D00F34D42 /* SeventhViewController.swift */,
 				BD5230AB286B5ED600F6199B /* Main.storyboard */,
 				BD5230B1286B5ED800F6199B /* Assets.xcassets */,
 				BD5230B3286B5ED800F6199B /* LaunchScreen.storyboard */,
@@ -271,9 +280,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				BD5230AA286B5ED600F6199B /* ViewController.swift in Sources */,
+				BDBED07A286DED1E00F34D42 /* SixthViewController.swift in Sources */,
 				BD5230A6286B5ED600F6199B /* AppDelegate.swift in Sources */,
 				BD5230B0286B5ED600F6199B /* e_bility.xcdatamodeld in Sources */,
+				BDBED07C286DED2D00F34D42 /* SeventhViewController.swift in Sources */,
 				BDE183C9286CA1A100E57126 /* FourthViewController.swift in Sources */,
+				BDBED078286DECE800F34D42 /* FifthViewController.swift in Sources */,
 				BDE183C5286B985000E57126 /* SecondViewController.swift in Sources */,
 				BDE183C7286BA67300E57126 /* ThirdViewController.swift in Sources */,
 				BD5230A8286B5ED600F6199B /* SceneDelegate.swift in Sources */,

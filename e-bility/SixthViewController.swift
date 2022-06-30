@@ -1,16 +1,17 @@
 //
-//  SecondViewController.swift
+//  SixthViewController.swift
 //  e-bility
 //
-//  Created by Scholar on 6/28/22.
+//  Created by Scholar on 6/30/22.
 //
 
 import UIKit
 
-class SecondViewController: UIViewController {
+class SixthViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
+
         // Do any additional setup after loading the view.
     }
     
