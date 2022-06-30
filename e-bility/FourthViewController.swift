@@ -19,14 +19,16 @@ var imagePicker = UIImagePickerController()
         // Do any additional setup after loading the view.
     }
     
-    @IBAction func choosePhotoTapped(_ sender: UIButton) {
+    @IBAction func choosePhotoTapped(_ sender: Any) {
         imagePicker.sourceType = .photoLibrary
         
         present(imagePicker, animated: true, completion: nil)
     }
     
     @IBAction func takeAPicture(_ sender: Any) {
-        present()
+        imagePicker.sourceType = .camera
+        present(imagePicker, animated: true, completion: nil)
+        
     }
     
     /*
